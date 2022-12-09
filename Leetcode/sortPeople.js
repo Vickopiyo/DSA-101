@@ -9,15 +9,22 @@
 
   function sortPeople(names, heights){
     let resultArray = [];
-    // loop through the names and sort using the heights
-    for(let i = 0; i < names.length; i++){
-      // push the resulting object to the resultArray
-      resultArray.push({names: names[i], heights: heights[i]})
+    // loop through the names and sort using the heights  
+    
+    for(let i = 0; i < names.length; i++){  
+
+      // push the resulting object to the resultArray 
+
+      resultArray.push({names: names[i], heights: heights[i]})  
+
+
       // sort the heights in descending order
-      let sortedHeightArray = resultArray.sort((a, b) => b.heights -a.heights)
+      let sortedHeightArray = resultArray.sort((a, b) => b.heights -a.heights)  
+
+
 
       // map the result to the names array and return
-      return sortedHeightArray.map(el => el.names);
+      return  sortedHeightArray.map(el => el.names);
     }
     return null;
   }

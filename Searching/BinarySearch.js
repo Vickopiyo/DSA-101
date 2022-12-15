@@ -29,4 +29,4 @@ function binarySearch(arr, target){
   }
 }
 
-// console.log(linearSearch([1, 3, 5, 7, 9], 6));
+console.log(linearSearch([1, 3, 5, 7, 9], 6));

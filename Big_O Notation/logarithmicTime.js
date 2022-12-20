@@ -89,6 +89,6 @@ function searchTarget(nums, target){
   return -1;
 }     
  
-const  arr = [2,6,7,8,9]   
+const  arr = [2,6,7,8,9,9]   
 
 console.log(searchTarget(arr, 6))  

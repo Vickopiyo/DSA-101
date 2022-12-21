@@ -91,4 +91,5 @@ function searchTarget(nums, target){
  
 const  arr = [2,6,7,8,9,9]   
 
-console.log(searchTarget(arr, 6))  
+console.log(searchTarget(arr, 6))    
+

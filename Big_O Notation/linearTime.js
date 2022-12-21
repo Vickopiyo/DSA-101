@@ -17,14 +17,10 @@ function findArrayElements(arr){
 
   // INCREASED--BIGGER  RUNTIME DUE TO METHOD foreach
   
-  arr.forEach(element => { 
-    console.log(`ELEMENT IN ${element}`)
-    
-  });
+  arr.forEach(element =>  console.log(`ELEMENT IN ${element}`)  );
 
   return null;
 }   
-
 
 
 

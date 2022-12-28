@@ -45,6 +45,5 @@ console.log(`Run time ${end - start}`)
 
 // findArrayElements(myArray2); 
 // const finish = performance.now()  
-
-// console.log(`Run time ${finish - begin}`)
+ console.log(`Run time ${finish - begin}`)
 

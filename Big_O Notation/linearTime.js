@@ -9,11 +9,11 @@ the RUN TIME  of the function grows as the input grows, and we mark it as O(n).
  */
 
 function findArrayElements(arr){
-  // for(let i = 0; i  < arr.length; i++){
+  for(let i = 0; i  < arr.length; i++){
 
-  //  console.log(`Element in an array is ${arr[i]}`)
+   console.log(`Element in an array is ${arr[i]}`)
 
-  // }     
+  }     
 
   // INCREASED--BIGGER  RUNTIME DUE TO METHOD foreach
   

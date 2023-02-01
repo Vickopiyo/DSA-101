@@ -35,7 +35,8 @@ const myArray = [45, 7, 89, 4,0];
 // const myArray2 = [45, 7, 89, 4,0,6,78,8,89,9,78,90];
 
 
-const start = performance.now()
+const start = performance.now()   
+
 findArrayElements(myArray); 
 const end = performance.now()  
 

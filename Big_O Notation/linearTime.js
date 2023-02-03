@@ -17,13 +17,10 @@ function findArrayElements(arr){
 
   // INCREASED--BIGGER  RUNTIME DUE TO METHOD foreach
   
-  arr.forEach(element =>  console.log(`ELEMENT IN ${element}`)  );
+  arr.forEach( element =>  console.log(`ELEMENT IN ${element}`)  );
 
   return null;
 }   
-
-
-
 
 //  O(n) => SAME Time Complexity  due how it iterating through Array (one layer)
     // n-input size
@@ -32,9 +29,7 @@ function findArrayElements(arr){
 
 const myArray = [45, 7, 89, 4,0];   
 
-// const myArray2 = [45, 7, 89, 4,0,6,78,8,89,9,78,90];
-
-
+// const myArray2 = [45, 7, 89, 4,0,6,78,8,89,9,78,90]
 const start = performance.now()   
 
 findArrayElements(myArray); 
